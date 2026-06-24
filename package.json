@@ -1,5 +1,5 @@
 {
-  "name": "dyad",
+  "name": "gendevibe",
   "version": "1.4.0",
   "description": "Free, local, open-source AI app builder",
   "keywords": [],
@@ -184,7 +184,7 @@
     "babel-plugin-react-compiler": "^1.0.0",
     "cross-env": "^7.0.3",
     "drizzle-kit": "^0.30.6",
-    "electron": "40.0.0",
+    "electron": "^40.0.0",
     "electron-installer-dmg": "^5.0.1",
     "eslint": "^8.57.1",
     "eslint-plugin-import": "^2.31.0",
@@ -207,5 +207,5 @@
   "engines": {
     "node": ">=24 <26"
   },
-  "productName": "dyad"
+  "productName": "GenDevibe"
 }

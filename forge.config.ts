@@ -181,7 +181,7 @@ const config: ForgeConfig = {
         force: true,
       },
   makers: [
-    new (require('@electron-forge/maker-dmg').MakerDmg)({
+    new (require('@electron-forge/maker-dmg').MakerDMG)({
       // macOS DMG maker
     }),
     new MakerSquirrel(

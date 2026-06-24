@@ -181,6 +181,9 @@ const config: ForgeConfig = {
         force: true,
       },
   makers: [
+    new (require('@electron-forge/maker-dmg').MakerDmg)({
+      // macOS DMG maker
+    }),
     new MakerSquirrel(
       // @ts-expect-error - incorrect types exported by MakerSquirrel
       isWindowsSigningEnabled
